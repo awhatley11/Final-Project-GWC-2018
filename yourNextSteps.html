@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!-- This controls what's actually seen in the URL-->
+  <title>Band 2 Benefit</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel = "stylesheet" type = "text/css" href = "yourNextSteps.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Comfortaa|Shadows+Into+Light|Teko" rel="stylesheet">
+</head>
+
+<body class="skills">
+<!-- This is used in each tab to keep the presence of the Navbar when switching between tabs-->
+  <div>
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <hr class="w3-border-white" style="margin:auto;width:40%">
+  </div>
+<!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-wide">B2B</a>
+<!-- This is supposed to link the HTML files together so the Navbar works -->
+      <div class="w3-left w3-hide-small">
+        <a href= home.html class="w3-bar-item w3-button">HOME</a>
+        <a href= about.html class="w3-bar-item w3-button">ABOUT</a>
+        <a href= skills.html class="w3-bar-item w3-button">SKILLS</a>
+        <a href= yourNextSteps.html class="w3-bar-item w3-button">YOUR NEXT STEPS</a>
+      </div>
+    </div>
+  </div>
+
+<!-- This is for the  table -->
+  <br>
+  <br>
+  <p id="header">Job Cards<p>
+<p id="text-all" class="text">All the career paths you get to choose from.</p>
+  <p id="text-none" class="text">These careers that have no prerequisite education level.</p>
+  <p id="text-diploma" class="text">These careers generally require at least a General Education Diploma (GED) or High School Diploma.<p>
+  <p id="text-degree" class="text">Most of the time these careers require a postsecondary education, either an Associate Degree or a Bachelor Degree.<p>
+  <br>
+  <table id="table"></table>
+	<table id="table-all"></table>
+	<table id="table-none"></table>
+  <table id="table-diploma"><table>
+	<table id="table-degree"></table>
+
+	<ul>
+  	<li id="list-header">Pre-Requisites<li>
+  	<li onclick="allDisplay()" class="pointer" id="all-tag">All</li>
+  	<li onclick="noneDisplay()" class="pointer" id="none-tag">None</li>
+  	<li onclick="diplomaDisplay()" class="pointer" id="diploma-tag">Diploma/GED</li>
+    <li onclick="degreeDisplay()" class="pointer" id="degree-tag">Degree</li>
+	</ul>
+</body>
+
+<script src="yourNextSteps.js"></script>
+</html>

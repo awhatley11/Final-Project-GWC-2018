@@ -1,0 +1,247 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+
+
+/* This controls the CSS for the homepage */
+body.homepage{
+
+  font-family: 'Monoton', 'cursive', sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+
+
+
+  /* canvas */
+  background-color: none;
+  background-image: none;
+
+
+  /* spacing */
+  margin: 0;
+  padding: 0;
+
+}
+
+body,h1 {font-family: 'Monoton', 'cursive', sans-serif;}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/helping-climb.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* This creates the transparent box on the homepage */
+span.tpbox {
+  font-family: 'Patua One', 'cursive', sans-serif;
+  font-size: 25px;
+  width: 10;
+  background: rgba(25, 25, 25, .5);
+  color: #fff;
+  padding: 100px;
+  margin: 5px
+}
+
+
+/* This controls the CSS for the 'about' page */
+body.about{
+
+  font-family: 'Monoton', 'cursive', sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+  color: #5C9EAD;
+
+
+
+  /* canvas */
+  background-color: #EEEEEE;
+  background-image: none;
+
+
+  /* spacing */
+  margin: 0;
+  padding: 0;
+
+
+}
+
+
+/* This controls the CSS for the skills page */
+body.skills{
+  font-family: 'Patua One', 'cursive', sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+
+
+
+  /* canvas */
+  background-color: #E39774;
+  background-image: none;
+
+
+  /* spacing */
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.wink{
+  padding: 650px;
+}
+
+
+div.Wskill h2{
+    font-family: 'Monoton', 'cursive', sans-serif;
+    font-size: 50px;
+    font-style: none;
+    font-weight: normal;
+    color: #EEEEEE;
+
+
+
+    /* canvas */
+    background-color: none;
+    background-image: none;
+
+
+    /* spacing */
+    margin: 0;
+    padding: 0;
+
+}
+
+/* This controls the CSS for the yournextsteps page */
+body.yournextsteps{
+
+  font-family: 'Monoton', 'cursive', sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+
+
+
+  /* canvas */
+  background-color: #E39774;
+  background-image: none;
+
+
+  /* spacing */
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/* This if for the parallax effect on the homepage */
+.parallax {
+    /* The image used */
+    background-image: url('https://s-i.huffpost.com/gen/1492931/images/o-GRANDPARENT-facebook.jpg');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center
+}
+
+
+
+
+/* This is for the hoverable button */
+.button {
+  font-family: 'Monoton', 'cursive', sans-serif;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #EEEEEE;
+  border: none;
+  color: #326273;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 325px;
+  transition: all 0s;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/* This is for the 2nd hoverable button */
+.button2 {
+  font-family: 'Monoton', 'cursive', sans-serif;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #326273;
+  border: none;
+  color: #EEEEEE;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 325px;
+  transition: all 0s;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}

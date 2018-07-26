@@ -1,0 +1,34 @@
+/* This controls the CSS for the 'about' page */
+
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+body.about{
+
+  font-family: 'Monoton', 'cursive', sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+  color: #5C9EAD;
+
+
+
+  /* canvas */
+  background-color: #EEEEEE;
+  background-image: none;
+
+
+  /* spacing */
+  margin: 0;
+  padding: 0;
+
+
+}
+
+#mission-statement {
+  font-family: 'Patua One', cursive;
+  color: #326273;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  line-height: 35px;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Libre+Franklin');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Assistant:200');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+body {
+
+  font-family: 'Monoton', 'cursive', sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+
+
+
+  /* canvas */
+  background-color: #EEEEEE;
+  background-image: none;
+
+
+  /* spacing */
+  margin: 0;
+  padding: 0;
+
+}
+
+#header {
+  text-align: center;
+  font-family: 'Arvo', serif;
+  margin: 0px;
+  font-size: 30px
+}
+
+table {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+td {
+  border-radius: 3px;
+}
+
+.box {
+  width: 100%
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+  background-color: #5C9EAD;
+  border-color: #5C9EAD;
+}
+.box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.name {
+  margin: 0px;
+  font-family: 'Arvo', serif;
+}
+
+.link {
+  font-family: 'Libre Franklin', sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+}
+
+li {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Assistant', sans-serif;
+}
+
+#list-header {
+  font-family: 'Patua One', cursive;
+}
+
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+ul {
+  position:fixed;
+  bottom: 0px;
+  right:0px;
+  margins: 10px;
+  list-style-type: none;
+}
+
+.text {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Assistant', sans-serif;
+}
